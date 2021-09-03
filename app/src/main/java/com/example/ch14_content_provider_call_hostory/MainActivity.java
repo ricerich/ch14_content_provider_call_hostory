@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 callBuff.append("착신 :");
             else
                 callBuff.append("발신 :");
+
             callBuff.append(c.getString(2) + ":");
             callBuff.append(c.getString(3) + "초\n");
         } while (c.moveToNext());
